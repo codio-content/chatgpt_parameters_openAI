@@ -1,0 +1,63 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-371114206",
+	"source": {
+		"name": "OpenAI ChatGPTAPI",
+		"showName": false,
+		"instructions": "In a conversation using the OpenAI Chat API, each message in the list should have two pieces of information: the role (_____, _____, or _____) and the content.\nPlease choose all that apply:",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "81e01359-56ce-3e88-a426-f67e0ff293a6",
+				"correct": true,
+				"answer": "system"
+			},
+			{
+				"_id": "11593fd6-9b4a-27dc-dd0a-81fdfc6bc79f",
+				"correct": true,
+				"answer": "user"
+			},
+			{
+				"_id": "22b75ed4-0c04-d662-cac3-42875327f6d2",
+				"correct": true,
+				"answer": "assistant"
+			},
+			{
+				"_id": "e5588053-0082-ae64-92ca-1192d287802b",
+				"correct": false,
+				"answer": "Overlord"
+			}
+		],
+		"guidance": "Each message in the list for the OpenAI ChatGPT API should have two pieces of information: the role (which can be \"system\", \"user\", or \"assistant\") and the content (the actual words used in the message).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py",
+				"completion.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

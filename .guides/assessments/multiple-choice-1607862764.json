@@ -1,0 +1,52 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1607862764",
+	"source": {
+		"name": "OpenAI ChatGPT API",
+		"showName": false,
+		"instructions": "When using the OpenAI ChatGPT API, it is not important to include the entire conversation history in your API call since it is stored in the cloud, if you want the model to refer to previous messages later on.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8e381ae3-191d-2f3d-5386-8da08e4d2f6d",
+				"correct": false,
+				"answer": "True"
+			},
+			{
+				"_id": "d6064c4e-4e5a-e8db-b5ef-6c3e412e161b",
+				"correct": true,
+				"answer": "False"
+			}
+		],
+		"guidance": "The models used by the API have no memory of past requests, so all relevant information must be supplied via the conversation. Including the entire conversation history ensures that the model can refer to previous messages as needed.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp2.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp2.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

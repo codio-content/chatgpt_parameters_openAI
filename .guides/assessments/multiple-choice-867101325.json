@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-867101325",
+	"source": {
+		"name": "API",
+		"showName": false,
+		"instructions": "What is the primary purpose of an API?",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "0bacc66d-e12c-f998-7930-5822443237e3",
+				"correct": false,
+				"answer": "To store data for applications"
+			},
+			{
+				"_id": "96b76510-a8a5-7989-c768-a2c8b2455308",
+				"correct": true,
+				"answer": "To enable communication and interaction between different software systems"
+			},
+			{
+				"_id": "8bee78c5-3b1c-0863-ac1e-387acf1766b6",
+				"correct": false,
+				"answer": "To provide a visual interface for users"
+			},
+			{
+				"_id": "4ca333ab-102e-5960-ab4c-67aabb2048a9",
+				"correct": false,
+				"answer": "To manage software updates"
+			}
+		],
+		"guidance": "APIs, or Application Programming Interfaces, allow different software systems to communicate and interact with each other, enabling integration between systems and facilitating the sharing of information.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"completion.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "completion.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

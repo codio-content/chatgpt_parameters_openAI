@@ -1,17 +1,16 @@
-### CODIO SOLUTION BEGIN
 import os
 import openai
 import secret
 openai.api_key=secret.api_key
-
+### CODIO SOLUTION BEGIN
 response=openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
   messages=[
         {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": "can you write me a sentece obout animal behavior."}
-    ]
+        {"role": "user", "content": "What's a good book to read on a rainy day?"}
+    ],
+  n=3
 )
 
-
-print(response['choices'][0]['message']['content'].strip())
-## CODIO SOLUTION END
+print(response)
+### CODIO SOLUTION END

@@ -1,0 +1,21 @@
+{
+	"id": "f04c8142-b84b-e6be-8c15-cb52dc2b3954",
+	"title": "Instructing Chat Models",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "temp2.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

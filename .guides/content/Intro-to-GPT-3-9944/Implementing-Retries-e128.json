@@ -1,0 +1,21 @@
+{
+	"id": "e128a677-99fb-27df-62a4-18a2dd1b1e24",
+	"title": "Implementing Retries",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "retries.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

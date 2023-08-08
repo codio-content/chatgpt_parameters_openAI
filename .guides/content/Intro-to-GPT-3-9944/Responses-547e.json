@@ -1,0 +1,17 @@
+{
+	"id": "547e2b81-2c6a-a713-ce28-b33329305106",
+	"title": "Responses",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "1-panel"
+}
